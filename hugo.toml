@@ -1,0 +1,55 @@
+baseURL = "https://specmatch-demo.netlify.app" # You will update this later
+languageCode = "en-us"
+title = "SpecMatch.io"
+theme = "PaperMod"
+
+# --- FIX 1: New Pagination Syntax ---
+[pagination]
+  pagerSize = 10
+
+# --- FIX 2: Allow Affiliate Buttons (HTML) ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    # Theme Customization
+    defaultTheme = "dark" 
+    ShowReadingTime = true
+    ShowShareButtons = false
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = false
+    description = "AI-powered hardware requirements database. Find the perfect laptop for your favorite games and software."
+    
+    # Homepage Profile Mode
+    [params.homeInfoParams]
+        Title = "⚡ Match Your Specs"
+        Content = "Don't guess if a laptop can run your game. We analyze official system requirements to recommend the exact hardware you need."
+
+    # Footer
+    [params.footer]
+        text = "SpecMatch.io is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate, we earn from qualifying purchases."
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+    
+    [[menu.main]]
+        identifier = "guides"
+        name = "Laptop Guides"
+        url = "/posts/"
+        weight = 20
+
+    [[menu.main]]
+        identifier = "tags"
+        name = "Browse by Game"
+        url = "/tags/"
+        weight = 30
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]

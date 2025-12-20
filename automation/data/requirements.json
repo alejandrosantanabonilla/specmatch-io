@@ -1,0 +1,142 @@
+[
+    {
+        "id": "730",
+        "name": "Counter-Strike 2",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS:  Windows\u00ae 10 \n Processor:  4 hardware CPU threads - Intel\u00ae Core\u2122 i5 750 or higher \n Memory:  8 GB RAM \n Graphics:  Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0 \n DirectX:  Version 11 \n Storage:  85 GB available space",
+        "rec_specs_text": "Minimum: \n OS:  Windows\u00ae 10 \n Processor:  4 hardware CPU threads - Intel\u00ae Core\u2122 i5 750 or higher \n Memory:  8 GB RAM \n Graphics:  Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0 \n DirectX:  Version 11 \n Storage:  85 GB available space"
+    },
+    {
+        "id": "1172470",
+        "name": "Apex Legends\u2122",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  64-bit Windows 10 \n Processor:  AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent \n Memory:  6 GB RAM \n Graphics:  AMD Radeon\u2122 HD 7790 (2 GB), NVIDIA GeForce\u00ae GTX 950 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  75 GB available space \n Additional Notes:  ~3.8GB for 1 localized language",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  64-bit Windows 10 \n Processor:  Ryzen 5 CPU or Equivalent \n Memory:  8 GB RAM \n Graphics:  AMD Radeon\u2122 R9 290, NVIDIA GeForce\u00ae GTX 970 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  75 GB available space \n Additional Notes:  ~3.8GB for 1 localized language"
+    },
+    {
+        "id": "578080",
+        "name": "PUBG: BATTLEGROUNDS",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  64-bit Windows 10 \n Processor:  Intel Core i5-4430 / AMD FX-6300 \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  40 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  64-bit Windows 10 \n Processor:  Intel Core i5-6600K / AMD Ryzen 5 1600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  50 GB available space"
+    },
+    {
+        "id": "1623730",
+        "name": "Palworld",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 or later (64-Bit) \n Processor:  i5-3570K 3.4 GHz 4 Core \n Memory:  16 GB RAM \n Graphics:  GeForce GTX 1050 (2GB) \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  40 GB available space \n Additional Notes:  Internet connection required for multiplayer. SSD required.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 or later (64-Bit) \n Processor:  i9-9900K 3.6 GHz 8 Core \n Memory:  32 GB RAM \n Graphics:  GeForce RTX 2070 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  40 GB available space \n Additional Notes:  Internet connection required for multiplayer. SSD required."
+    },
+    {
+        "id": "440",
+        "name": "Team Fortress 2",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS *:  Windows\u00ae 7 (32/64-bit)/Vista/XP \n Processor:  1.7 GHz Processor or better \n Memory:  512 MB RAM \n DirectX:  Version 8.1 \n Network:  Broadband Internet connection \n Storage:  15 GB available space",
+        "rec_specs_text": "Recommended: \n OS *:  Windows\u00ae 7 (32/64-bit) \n Processor:  Pentium 4 processor (3.0GHz, or better) \n Memory:  1 GB RAM \n DirectX:  Version 9.0c \n Network:  Broadband Internet connection \n Storage:  15 GB available space"
+    },
+    {
+        "id": "1938090",
+        "name": "Call of Duty\u00ae",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows\u00ae 10 64 Bit (latest update) \n Processor:  AMD Ryzen\u2122 5 1400 or Intel\u00ae Core\u2122 i5-6600 \n Memory:  8 GB RAM \n Graphics:  AMD Radeon\u2122 RX 470, NVIDIA\u00ae GeForce\u00ae GTX 970 / 1060 or Intel\u00ae Arc\u2122 A580 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Additional Notes:  SSD with 161 GB available space at launch",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows\u00ae 11 64 Bit (latest update) \n Processor:  AMD Ryzen\u2122 5 1600X or Intel\u00ae Core\u2122 i7-6700K \n Memory:  12 GB RAM \n Graphics:  AMD Radeon\u2122 RX 6600XT, NVIDIA\u00ae GeForce\u00ae RTX 3060 or Intel\u00ae Arc\u2122 B580 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Additional Notes:  SSD with 161 GB available space at launch"
+    },
+    {
+        "id": "1063730",
+        "name": "New World: Aeternum",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 64-bit \n Processor:  Intel\u00ae Core i5-10500 @ 3.10GHz / AMD Ryzen 3 3300X \n Memory:  8 GB RAM \n Graphics:  NVIDIA GTX 1060 3 GB / AMD Radeon RX 590 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  100 GB available space \n Additional Notes:  Additional Notes: Internet connection required to play, offers in-game purchases. PC specifications for New World: Aeternum may continue to evolve over time.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 64-bit \n Processor:  Intel Core i7-10700K @ 3.80Ghz / AMD Ryzen 5 3600X \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 2060 / AMD Radeon RX 6600 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  100 GB available space \n Additional Notes:  Additional Notes: Internet connection required to play, offers in-game purchases. System requirements for New World: Aeternum may change over time."
+    },
+    {
+        "id": "2358720",
+        "name": "Black Myth: Wukong",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 64-bit \n Processor:  Intel Core i5-8400 / AMD Ryzen 5 1600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB \n DirectX:  Version 11 \n Storage:  130 GB available space \n Sound Card:  Windows Compatible Audio Device \n Additional Notes:  HDD Supported, SSD Recommended. The above specifications were tested with DLSS/FSR/XeSS enabled.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 64-bit \n Processor:  Intel Core i7-9700 / AMD Ryzen 5 5500 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT / INTEL Arc A750 \n DirectX:  Version 12 \n Storage:  130 GB available space \n Sound Card:  Windows Compatible Audio Device \n Additional Notes:  SSD Required. The above specifications were tested with DLSS/FSR/XeSS enabled."
+    },
+    {
+        "id": "271590",
+        "name": "Grand Theft Auto V Legacy",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 64 Bit \n Processor:  Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz \n Memory:  4 GB RAM \n Graphics:  NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11) \n Storage:  125 GB available space \n Sound Card:  100% DirectX 10 compatible \n Additional Notes:  Over time downloadable content and programming changes will change the system requirements for this game.  Please refer to your hardware manufacturer and  for current compatibility information. Some system components such as mobile chipsets, integrated, and AGP graphics cards may be incompatible. Unlisted specifications may not be supported by publisher.     Other requirements:  Installation and online play requires log-in to Rockstar Games Social Club (13+) network; internet connection required for activation, online play, and periodic entitlement verification; software installations required including Rockstar Games Social Club platform, DirectX , Chromium, and Microsoft Visual C++ 2008 sp1 Redistributable Package, and authentication software that recognizes certain hardware attributes for entitlement, digital rights management, system, and other support purposes.     SINGLE USE SERIAL CODE REGISTRATION VIA INTERNET REQUIRED; REGISTRATION IS LIMITED TO ONE ROCKSTAR GAMES SOCIAL CLUB ACCOUNT (13+) PER SERIAL CODE; ONLY ONE PC LOG-IN ALLOWED PER SOCIAL CLUB ACCOUNT AT ANY TIME; SERIAL CODE(S) ARE NON-TRANSFERABLE ONCE USED; SOCIAL CLUB ACCOUNTS ARE NON-TRANSFERABLE.  Partner Requirements:  Please check the terms of service of this site before purchasing this software.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 64 Bit \n Processor:  Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs) \n Memory:  8 GB RAM \n Graphics:  NVIDIA GTX 660 2GB / AMD HD 7870 2GB \n Storage:  125 GB available space \n Sound Card:  100% DirectX 10 compatible"
+    },
+    {
+        "id": "550",
+        "name": "Left 4 Dead 2",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS *:  Windows\u00ae 7 32/64-bit / Vista 32/64 / XP \n Processor:  Pentium 4 3.0GHz \n Memory:  2 GB RAM \n Graphics:  Video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better \n DirectX:  Version 9.0c \n Storage:  13 GB available space \n Sound Card:  DirectX 9.0c compatible sound card",
+        "rec_specs_text": "Recommended: \n OS *:  Windows\u00ae 7 32/64-bit / Vista 32/64 / XP \n Processor:  Intel core 2 duo 2.4GHz \n Memory:  2 GB RAM \n Graphics:  Video Card Shader model 3.0. NVidia 7600, ATI X1600 or better \n DirectX:  Version 9.0c \n Storage:  13 GB available space \n Sound Card:  DirectX 9.0c compatible sound card"
+    },
+    {
+        "id": "304930",
+        "name": "Unturned",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS *:  Windows 7 SP1+ \n Processor:  3 GHz \n Memory:  8 GB RAM \n DirectX:  Version 10 \n Storage:  4 GB available space",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 64-bit \n Processor:  4 GHz \n Memory:  16 GB RAM \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  6 GB available space"
+    },
+    {
+        "id": "1599340",
+        "name": "Lost Ark",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 (64-bit only) \n Processor:  Intel Core i3 \u2013 10100 AMD Ryzen3 3100 \n Memory:  16 GB RAM \n Graphics:  Nvidia Geforce GTX 1050 Ti / AMD Radeon RX 560 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  110 GB available space \n Additional Notes:  Internet connection required to play, offers in-game purchases. System requirements for this game may change over time.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 11 (64-bit only) \n Processor:  Intel Core i5 \u2013 9400 AMD Ryzen5 2600 \n Memory:  16 GB RAM \n Graphics:  Nvidia Geforce GTX 1660 Super / AMD Radeon RX 6600 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  110 GB available space \n Additional Notes:  Internet connection required to play, offers in-game purchases. System requirements for this game may change over time. The specifications listed are recommended for Full High Definition (FHD)."
+    },
+    {
+        "id": "236390",
+        "name": "War Thunder",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 (64bit) \n Processor:  Dual-Core 2.2 GHz \n Memory:  4 GB RAM \n Graphics:  DirectX 11 level video card: AMD Radeon 77XX / NVIDIA GeForce GTX 660. The minimum supported resolution for the game is 720p. \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  40 GB available space \n VR Support:  SteamVR. Keyboard or gamepad required",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10/11 (64bit) \n Processor:  Intel Core i5 or Ryzen 5 3600 or better \n Memory:  16 GB RAM \n Graphics:  DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  95 GB available space"
+    },
+    {
+        "id": "2246340",
+        "name": "Monster Hunter Wilds",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows\u00ae10 (64-bit Required)/Windows\u00ae11 (64-bit Required) \n Processor:  Intel\u00ae Core\u2122 i5-10400 or Intel\u00ae Core\u2122 i3-12100 or AMD Ryzen\u2122 5 3600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA\u00ae GeForce\u00ae GTX 1660(VRAM 6GB) or AMD Radeon\u2122 RX 5500 XT(VRAM 8GB) \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  75 GB available space \n Additional Notes:  SSD required. This game is expected to run at 1080p (upscaled from 720 native resolution) / 30 fps under the \"Lowest\" graphics setting. DirectStorage supported.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows\u00ae10 (64-bit Required)/Windows\u00ae11 (64-bit Required) \n Processor:  Intel\u00ae Core\u2122 i5-10400 or Intel\u00ae Core\u2122 i3-12100 or AMD Ryzen\u2122 5 3600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA\u00ae GeForce\u00ae RTX 2060 Super(VRAM 8GB) or\u3000AMD Radeon\u2122  RX 6600(VRAM 8GB) \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  75 GB available space \n Additional Notes:  SSD required. This game is expected to run at 1080p / 60 fps (with Frame Generation enabled) under the \"Medium\" graphics setting. DirectStorage supported."
+    },
+    {
+        "id": "553850",
+        "name": "HELLDIVERS\u2122 2",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-4790K or AMD Ryzen 5 1500X \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470 \n Storage:  135 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-9700K or AMD Ryzen 7 3700X \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT \n Storage:  135 GB available space \n Additional Notes:  SSD Recommended"
+    },
+    {
+        "id": "230410",
+        "name": "Warframe",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS *: Windows 7 64-Bit (32-bit not supported) \n   Processor: Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required) \n   Video: DirectX 11+ capable Graphics Card \n   Memory: 4 GB RAM \n   Storage: 50 GB available HD space \n   Internet: Broadband Internet Connection Required \n Note: There is no Mac or Linux client currently available. \n \n DirectX 12 support requires at least Windows 10 20H2 (released in 2020) or Windows 11",
+        "rec_specs_text": "Minimum: \n OS *: Windows 7 64-Bit (32-bit not supported) \n   Processor: Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required) \n   Video: DirectX 11+ capable Graphics Card \n   Memory: 4 GB RAM \n   Storage: 50 GB available HD space \n   Internet: Broadband Internet Connection Required \n Note: There is no Mac or Linux client currently available. \n \n DirectX 12 support requires at least Windows 10 20H2 (released in 2020) or Windows 11"
+    },
+    {
+        "id": "1245620",
+        "name": "ELDEN RING",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  INTEL CORE I5-8400 or AMD RYZEN 3 3300X \n Memory:  12 GB RAM \n Graphics:  NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB \n DirectX:  Version 12 \n Storage:  60 GB available space \n Sound Card:  Windows Compatible Audio Device \n Additional Notes:",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 \n Processor:  INTEL CORE I7-8700K or AMD RYZEN 5 3600X \n Memory:  16 GB RAM \n Graphics:  NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB \n DirectX:  Version 12 \n Storage:  60 GB available space \n Sound Card:  Windows Compatible Audio Device \n Additional Notes:"
+    },
+    {
+        "id": "105600",
+        "name": "Terraria",
+        "category": "Game",
+        "min_specs_text": "REQUIRED OS: Windows Xp, Vista, 7, 8/8.1, 10   \n   Processor: 2.0 Ghz   \n   Memory: 2.5GB \n   Hard Disk Space: 200MB    \n   Video Card: 128mb Video Memory, capable of Shader Model 2.0+   \n   DirectX\u00ae: 9.0c or Greater",
+        "rec_specs_text": "RECOMMENDED OS: Windows 7, 8/8.1, 10   \n   Processor: Dual Core 3.0 Ghz   \n   Memory: 4GB \n   Hard Disk Space: 200MB    \n   Video Card: 256mb Video Memory, capable of Shader Model 2.0+   \n   DirectX\u00ae: 9.0c or Greater"
+    },
+    {
+        "id": "2694490",
+        "name": "Path of Exile 2",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 \n Processor:  Intel\u00ae Core\u2122 i7-7700 or AMD\u2122 Ryzen 5 2500x \n Memory:  8 GB RAM \n Graphics:  NVIDIA\u00ae GeForce\u00ae GTX 960 (3GB), Intel\u00ae Arc\u2122 A380, or ATI Radeon\u2122 RX 470 \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  100 GB available space \n Additional Notes:  A GPU with at least 3GB of VRAM is required",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 \n Processor:  Intel\u00ae Core\u2122 i5-10500 or AMD\u2122 Ryzen 5 3700X \n Memory:  16 GB RAM \n Graphics:  NVIDIA\u00ae GeForce\u00ae RTX 2060, Intel\u00ae Arc\u2122 A770, or ATI Radeon\u2122 RX 5600XT \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  100 GB available space \n Additional Notes:  Solid State Storage is recommended"
+    },
+    {
+        "id": "431960",
+        "name": "Wallpaper Engine",
+        "category": "Game",
+        "min_specs_text": "Minimum: \n OS:  Windows 10, Windows 11 \n Processor:  1.66 GHz Intel i5 or equivalent \n Memory:  1024 MB RAM \n Graphics:  HD Graphics 4000 or above \n DirectX:  Version 11 \n Storage:  512 MB available space \n Additional Notes:  Windows N versions require the 'Media Feature Pack' from Microsoft.",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10, Windows 11 \n Processor:  2.0 GHz Intel i7 or equivalent \n Memory:  2048 MB RAM \n Graphics:  NVIDIA GeForce GTX 660, AMD HD7870, 2 GB VRAM or above \n DirectX:  Version 11 \n Storage:  1024 MB available space \n Additional Notes:  Mobile App requires Android 8.1 or newer"
+    }
+]

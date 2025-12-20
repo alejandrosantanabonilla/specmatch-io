@@ -1,0 +1,19 @@
+# --- Security (NEVER UPLOAD THESE) ---
+.env
+.DS_Store
+
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# --- Hugo Build Output (Netlify builds this, don't upload it) ---
+public/
+resources/
+.hugo_build.lock
+
+# --- VS Code / Editor Settings ---
+.vscode/
+.idea/
