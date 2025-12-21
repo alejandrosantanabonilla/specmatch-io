@@ -4,7 +4,7 @@ layout: "page"
 draft: false
 ---
 
-![SpecMatch Fantasy Art](/images/cover.jpg)
+![SpecMatch Fantasy Art](/images/cover.png)
 
 ### Who We Are
 Welcome to SpecMatch.io. We help gamers find the perfect laptop by analyzing official system requirements.
