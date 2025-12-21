@@ -1,55 +1,60 @@
-baseURL = "/" 
+baseURL = "/"
 languageCode = "en-us"
 title = "SpecMatch.io"
 theme = "PaperMod"
 
-# --- FIX 1: New Pagination Syntax ---
-[pagination]
-  pagerSize = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
 
-# --- FIX 2: Allow Affiliate Buttons (HTML) ---
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[params]
-    # Theme Customization
-    defaultTheme = "dark" 
-    ShowReadingTime = true
-    ShowShareButtons = false
-    ShowPostNavLinks = true
-    ShowBreadCrumbs = true
-    ShowCodeCopyButtons = false
-    description = "AI-powered hardware requirements database. Find the perfect laptop for your favorite games and software."
-    
-    # Homepage Profile Mode
-    [params.homeInfoParams]
-        Title = "⚡ Match Your Specs"
-        Content = "Don't guess if a laptop can run your game. We analyze official system requirements to recommend the exact hardware you need."
-
-    # Footer
-    [params.footer]
-        text = "SpecMatch.io is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate, we earn from qualifying purchases."
-
+# --- Navigation Bar (Menu) ---
 [menu]
-    [[menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-        weight = 10
+  [[menu.main]]
+    identifier = "laptops"
+    name = "Laptop Guides"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "browse"
+    name = "Browse by Game"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+# --- Theme Configuration ---
+[params]
+    env = "production"
+    title = "SpecMatch.io"
+    description = "Automated Laptop Recommendations for PC Games"
+    keywords = ["Gaming Laptops", "System Requirements", "PC Specs"]
+    author = "SpecMatch"
+    defaultTheme = "dark" # Force Dark Mode
     
-    [[menu.main]]
-        identifier = "guides"
-        name = "Laptop Guides"
-        url = "/posts/"
-        weight = 20
+    # Disable built-in analytics (We use extend_head.html instead)
+    # googleAnalytics = ""
 
-    [[menu.main]]
-        identifier = "tags"
-        name = "Browse by Game"
-        url = "/tags/"
-        weight = 30
+    # --- Logo & Top Bar Settings ---
+    [params.label]
+        text = "SpecMatch"           # Text next to the logo
+        icon = "images/logo.png"     # <--- YOUR NEW LOGO
+        iconHeight = 35              # Adjust size if needed
 
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+    # --- Browser Tab Icons (Favicon) ---
+    [params.assets]
+        favicon = "images/logo.png"
+        favicon16x16 = "images/logo.png"
+        favicon32x32 = "images/logo.png"
+
+    # --- Footer Settings ---
+    [params.footer]
+        # Amazon Disclaimer (Required for payments)
+        copyright = "SpecMatch.io is a participant in the Amazon Services LLC Associates Program."
+
+# --- Social Links (Optional - appears in footer) ---
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/alejandrosantanabonilla/specmatch-io"
