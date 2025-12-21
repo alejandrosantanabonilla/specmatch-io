@@ -33,7 +33,7 @@ buildFuture = false
     keywords = ["Gaming Laptops", "System Requirements", "PC Specs"]
     author = "SpecMatch"
     defaultTheme = "dark" # Force Dark Mode
-    images = ["images/cover.jpg"]    
+    images = ["images/cover.png"]    
     # Disable built-in analytics (We use extend_head.html instead)
     # googleAnalytics = ""
 

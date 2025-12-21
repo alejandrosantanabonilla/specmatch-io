@@ -4,7 +4,7 @@ date: 2025-12-21
 draft: false
 weight: 1  # This keeps it at the very top
 cover:
-    image: "images/cover.jpg"
+    image: "images/cover.png"
     alt: "SpecMatch Fantasy GPU Art"
     caption: "Find the perfect hardware for your fantasy worlds."
     relative: false
