@@ -31,5 +31,4 @@ But here’s the brutal truth: your old rig won't cut it. Anything pre-2020 will
 ## The Verdict: Buy This Laptop
 Stop hesitating. The NVIDIA GeForce RTX 4060 laptop provides the best bang for your buck. It delivers smooth 1080p Ultra and solid 1440p performance. It’s the smart play.
 
-If you want to play Grand Theft Auto V Legacy without lag, this is the floor.
-[Link to NVIDIA GeForce RTX 4060 Laptop on Amazon]
+

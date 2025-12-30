@@ -53,4 +53,8 @@ If you want to play Black Myth: Wukong without lag, without compromise, this is 
   * [**>> Check Price on Amazon <<**](https://amzn.to/4sjnL7K)
 
 ---
+
+### See the RTX 4060 in Action 
+{{< youtube 6VvO2Wxx7gI >}}
+
 *Disclaimer: SpecMatch.io is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.*

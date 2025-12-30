@@ -25,6 +25,10 @@ Here’s the cold, hard truth: your pre-2020 rig will choke. Stuttering. Low fra
 ## The Verdict: The Hardware Standard
 If you want to play Grand Theft Auto VI without lag, without compromise at 1080p High settings, this is the floor: **A PC equipped with an NVIDIA GeForce RTX 4060 GPU and a modern mid-range CPU.**
 
+### See the RTX 4060 in Action (1080p Ultra)
+{{< youtube BP2RAV0wo6Q >}}
+
+
 ### 1. The Core Components (The "Engine")
 
 * **GPU:** [MSI Gaming GeForce RTX 4060 8GB](https://amzn.to/4qoTBxM)
