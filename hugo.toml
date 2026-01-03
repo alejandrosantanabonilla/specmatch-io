@@ -1,7 +1,7 @@
 baseURL = "https://specmatch-io.vercel.app/"  # Updated to match your Vercel screenshot
 languageCode = "en-us"
 title = "SpecMatch.io"
-theme = "PaperMod"
+theme = "MyTheme"
 
 enableRobotsTXT = true
 buildDrafts = false
