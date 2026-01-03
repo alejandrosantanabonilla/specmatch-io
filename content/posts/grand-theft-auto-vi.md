@@ -10,6 +10,9 @@ cover:
     relative: false
 ---
 
+![GTA Fantasy Art](/images/gta_cover.png)
+
+
 ## The "Fear of Missing Out"
 Grand Theft Auto VI is coming. It's not just a game; it's a generational leap. Rockstar’s RAGE 9 engine is a beast, pushing visual fidelity and open-world dynamism to unprecedented levels. You saw the trailers. The detail. The physics. The sheer scope.
 
