@@ -5,13 +5,10 @@ draft: false
 description: "Don't let low FPS ruin the experience. Here are the exact PC specs you need for Grand Theft Auto VI, from Budget 1080p to Ultra 4K."
 tags: ["Grand Theft Auto VI", "System Requirements", "Hardware Guide"]
 cover:
-    image: "/images/gta_cover.png"
+    image: "/images/gta_cover.jpg"
     alt: "Grand Theft Auto VI System Requirements Art"
     relative: false
 ---
-
-![GTA Fantasy Art](/images/gta_cover.png)
-
 
 ## The "Fear of Missing Out"
 Grand Theft Auto VI is coming. It's not just a game; it's a generational leap. Rockstar’s RAGE 9 engine is a beast, pushing visual fidelity and open-world dynamism to unprecedented levels. You saw the trailers. The detail. The physics. The sheer scope.

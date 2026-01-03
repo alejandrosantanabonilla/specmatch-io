@@ -3,7 +3,10 @@ title: "Can Your PC Run Monster Hunter Wilds? The 'Ultra 60 FPS' Hardware Guide"
 date: 2025-12-30T10:00:00+00:00
 description: "Don't let low FPS ruin the experience. Here are the exact laptop specs you need for Monster Hunter Wilds, from Budget 1080p to Ultra 4K."
 tags: ["Monster Hunter Wilds", "System Requirements", "Hardware Guide", "RTX 4060", "Gaming Laptop"]
-image: "/images/monster-hunter-wilds-cover.jpg"
+cover:
+    image: "/images/monster-hunter-wilds-cover.jpg"
+    alt: "Monster Hunter Wilds: Monster Hunter Wilds Requirements Art"
+    relative: false
 ---
 
 ## The "Fear of Missing Out" is Real
