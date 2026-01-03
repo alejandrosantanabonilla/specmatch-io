@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://specmatch-io.vercel.app/"  # Updated to match your Vercel screenshot
 languageCode = "en-us"
 title = "SpecMatch.io"
 theme = "PaperMod"
@@ -6,6 +6,7 @@ theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
+publishDir = "public"  # <--- CRITICAL FIX: Tells Vercel where the files are
 
 # --- Navigation Bar (Menu) ---
 [menu]
@@ -39,7 +40,7 @@ buildFuture = false
 
     # --- Logo & Top Bar Settings ---
     [params.label]
-        text = "SpecMatch"           # Text next to the logo
+        text = "SpecMatch"            # Text next to the logo
         icon = "images/logo.png"     # <--- YOUR NEW LOGO
         iconHeight = 35              # Adjust size if needed
 
