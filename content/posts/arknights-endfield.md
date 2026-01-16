@@ -13,7 +13,7 @@ cover:
 ## The "Fear of Missing Out"
 **Arknights: Endfield** is finally here, and it is a visual masterpiece that blends high-fidelity anime aesthetics with complex real-time strategic combat. The world of Talos II is vast, beautiful, and absolutely demanding, pushing Hypergryph’s proprietary engine to deliver next-gen lighting and physics that define the 2026 gaming landscape.
 
-If you are rocking hardware from pre-2020, you are going to struggle. Older quad-core CPUs and 4GB GPUs are already reporting major stuttering and texture pop-in during intense multi-operator battles. SpecMatch has analyzed the official requirements to ensure you have the perfect hardware match before you deploy.
+If you are rocking hardware from pre-2022, you are going to struggle. Older quad-core CPUs and 4GB GPUs are already reporting major stuttering and texture pop-in during intense multi-operator battles. SpecMatch has analyzed the official requirements to ensure you have the perfect hardware match before you deploy.
 
 ## Arknights: Endfield Official System Requirements (PC)
 Arknights: Endfield officially launches on **January 22, 2026**. To ensure a smooth experience during the Talos II expedition, your rig should meet these official benchmarks.
@@ -26,8 +26,10 @@ Arknights: Endfield officially launches on **January 22, 2026**. To ensure a smo
 | **RAM** | 16 GB | 32 GB |
 | **Storage** | 60 GB SSD (Mandatory) | 60 GB NVMe SSD |
 
+Let's check the Quick Reference!
+
 ## The "SpecMatch" Quick Reference
----
+
 | Target Experience | The SpecMatch GPU (Laptop) | The SpecMatch CPU | Est. Budget |
 |-------------------|----------------------------|-------------------|-------------|
 | **1080p (Entry)** | **RTX 4060 (16GB)** | Ryzen 7 | ~£1000 |
@@ -62,8 +64,8 @@ If you are looking to upgrade or buy a new machine specifically for high-fidelit
 * **Why:** The OLED screen is a game-changer for vibrant environments. It provides a massive visual upgrade over standard IPS panels.
 * [**Check Price on Amazon**](https://amzn.to/3Nm71fO)
 
-**Desktop Match:** [**CyberPowerPC Gamer Master**](https://amzn.to/49CDN3U)
-* **Specs:** Ryzen 7 9700X, RTX 4070 Super, 32GB DDR5 6000MHz
+**Desktop Match:** [**CyberPowerPC Gamer Master**](https://amzn.to/3LPOdVZ)
+* **Specs:** Ryzen 7 9700X, RTX 4070 32GB, DDR5 6000MHz
 
 ---
 
@@ -74,7 +76,7 @@ If you are looking to upgrade or buy a new machine specifically for high-fidelit
 * [**Check Price on Amazon**](https://amzn.to/4q0wcDm)
 
 **Desktop Match:** [**Alienware Aurora R16**](https://amzn.to/49CDN3U)
-* **Specs:** i9-14900KF, RTX 4080 Super (16GB), 32GB RAM, Liquid Cooled
+* **Specs:** AMD RYZEN 5 5500, RTX 4060 Super (16GB), 32GB RAM, Liquid Cooled
 
 ---
 
