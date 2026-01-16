@@ -1,0 +1,142 @@
+[
+    {
+        "id": "4025700",
+        "name": "Heartopia",
+        "gpu_recommendation": "Nvidia GTX 1060 or AMD RX 480",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i5 2500 or AMD FX-4350 \n Memory:  8 GB RAM \n Graphics:  Nvidia GTX 660Ti or AMD R9 270 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  10 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 / 11 \n Processor:  Intel Core i5 6500 or AMD R3 1200 \n Memory:  16 GB RAM \n Graphics:  Nvidia GTX 1060 or AMD RX 480 \n DirectX:  Version 11 \n Network:  Broadband Internet connection \n Storage:  10 GB available space"
+    },
+    {
+        "id": "1494090",
+        "name": "Blasten!!",
+        "gpu_recommendation": "512 MB Video Card",
+        "min_specs_text": "Minimum: \n OS:  7 \n Processor:  2 GHz \n Memory:  2048 MB RAM \n Graphics:  512 MB Video Card \n DirectX:  Version 9.0c",
+        "rec_specs_text": "Minimum: \n OS:  7 \n Processor:  2 GHz \n Memory:  2048 MB RAM \n Graphics:  512 MB Video Card \n DirectX:  Version 9.0c"
+    },
+    {
+        "id": "2788520",
+        "name": "Cozy Caravan",
+        "gpu_recommendation": "Intel HD Graphics 5200, NVIDIA GeForce GTX 750, Radeon HD 7800",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 (64 bit) \n Processor:  2.4ghz Intel Core 2 Duo or equivalent \n Memory:  4 GB RAM \n Graphics:  Intel HD Graphics 4600, NVIDIA GeForce GTX 630, Radeon HD 5670 \n DirectX:  Version 11 \n Storage:  4 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 (64 bit) \n Processor:  2.66GHz Intel Core i7 \n Memory:  8 GB RAM \n Graphics:  Intel HD Graphics 5200, NVIDIA GeForce GTX 750, Radeon HD 7800 \n DirectX:  Version 11 \n Storage:  4 GB available space"
+    },
+    {
+        "id": "3453000",
+        "name": "Spear",
+        "gpu_recommendation": "NVIDIA GeForce GTX 950 (2GB VRAM) or AMD Radeon RX 5500 XT (4GB VRAM)",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 \n Processor:  Intel Core i5-4460 3.4 GHz, AMD Ryzen3 1200 3.1 GHz \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 950 (2GB VRAM) or AMD Radeon RX 5500 XT (4GB VRAM) \n DirectX:  Version 11 \n Storage:  2 GB available space",
+        "rec_specs_text": "Minimum: \n OS:  Windows 10 \n Processor:  Intel Core i5-4460 3.4 GHz, AMD Ryzen3 1200 3.1 GHz \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 950 (2GB VRAM) or AMD Radeon RX 5500 XT (4GB VRAM) \n DirectX:  Version 11 \n Storage:  2 GB available space"
+    },
+    {
+        "id": "3419520",
+        "name": "Quarantine Zone: The Last Check",
+        "gpu_recommendation": "GeForce RTX 2080 / Radeon RX 5700",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 x64 Bit \n Processor:  Intel Core i7-5820K / AMD FX-8370 \n Memory:  8 GB RAM \n Graphics:  GeForce GeForce GTX 980 / Radeon RX 470 / Arc A380 \n DirectX:  Version 12 \n Storage:  12 GB available space \n Additional Notes:  Low Quality setting, in 1080p, producing 30+ FPS",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 11 x64 Bit \n Processor:  Intel Core i7-10700 / AMD Ryzen 5 5600X \n Memory:  16 GB RAM \n Graphics:  GeForce RTX 2080 / Radeon RX 5700 \n DirectX:  Version 12 \n Storage:  12 GB available space \n Additional Notes:  High Quality setting, in 1080p, producing 60 FPS"
+    },
+    {
+        "id": "2707870",
+        "name": "Streetdog BMX",
+        "gpu_recommendation": "NVIDIA Geforce GTX 970 / AMD RX 970",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 64-bit \n Processor:  Intel Core i5-7500 \n Memory:  8 GB RAM \n Graphics:  NVIDIA Geforce GTX 970 / AMD RX 970 \n DirectX:  Version 11 \n Storage:  10 GB available space \n Sound Card:  Windows Compatible Audio Device",
+        "rec_specs_text": "Minimum: \n OS:  Windows 10 64-bit \n Processor:  Intel Core i5-7500 \n Memory:  8 GB RAM \n Graphics:  NVIDIA Geforce GTX 970 / AMD RX 970 \n DirectX:  Version 11 \n Storage:  10 GB available space \n Sound Card:  Windows Compatible Audio Device"
+    },
+    {
+        "id": "3316940",
+        "name": "The Legend of Heroes: Trails beyond the Horizon",
+        "gpu_recommendation": "NVIDIA GeForce GTX 1650",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 \n Processor:  AMD Ryzen 5 1600 \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 1050 \n DirectX:  Version 11 \n Storage:  30 GB available space \n Additional Notes:  Settings: 1080p, 30 FPS, Performance Graphics Profile",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 \n Processor:  Intel Core i5-10400 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1650 \n DirectX:  Version 11 \n Storage:  30 GB available space \n Additional Notes:  Settings: 1440p, 60 FPS, High Graphics Profile"
+    },
+    {
+        "id": "2133830",
+        "name": "BrokenLore: UNFOLLOW",
+        "gpu_recommendation": "Radeon RX 6700 XT, Geforce RTX 4060",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 64-bit + \n Processor:  Ryzen 5 2600X, Core i5-8600 \n Memory:  8 GB RAM \n Graphics:  AMD RX 5700, GTX 1070 \n DirectX:  Version 12 \n Storage:  15 GB available space",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 64-bit + \n Processor:  Ryzen 5 5600X, Core i5-11600K \n Memory:  16 GB RAM \n Graphics:  Radeon RX 6700 XT, Geforce RTX 4060 \n DirectX:  Version 12 \n Storage:  15 GB available space"
+    },
+    {
+        "id": "3907920",
+        "name": "CARNEDGE",
+        "gpu_recommendation": "NVIDIA® GeForce® GTX 650 (2 GB) / AMD® Radeon™ HD 7750 (2 GB)",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows® 10 (64-bit) \n Processor:  Intel® Core™ i5-750 (quad-core) / AMD® Phenom™ II X4 965 (quad-core) \n Memory:  4 GB RAM \n Graphics:  NVIDIA® GeForce® GT 630 (2 GB) / AMD® Radeon™ HD 6670 (2 GB) \n DirectX:  Version 11 \n Storage:  1 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows® 10 (64-bit) \n Processor:  Intel® Core™ i5-3570 (quad-core) / AMD® FX-Series™ FX-8300 (quad-core) \n Memory:  8 GB RAM \n Graphics:  NVIDIA® GeForce® GTX 650 (2 GB) / AMD® Radeon™ HD 7750 (2 GB) \n DirectX:  Version 12 \n Storage:  1 GB available space"
+    },
+    {
+        "id": "1672810",
+        "name": "MIO: Memories in Orbit",
+        "gpu_recommendation": "AMD Radeon RX 570 / Nvidia GeForce GTX 1650",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 64-bit \n Processor:  AMD Ryzen 3 1200 / Intel Core i3-6100 \n Memory:  8 GB RAM \n Graphics:  AMD Radeon RX 460 / Nvidia GeForce GTX 1050 Ti \n DirectX:  Version 12 \n Storage:  4 GB available space \n Additional Notes:  60 FPS in 1920x1080 with \"Low\" preset. GPU with DirectX12 & Shader Model 6.0 mandatory",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 64-bit \n Processor:  AMD Ryzen 3 1300X / Intel Core i3-8100 \n Memory:  8 GB RAM \n Graphics:  AMD Radeon RX 570 / Nvidia GeForce GTX 1650 \n DirectX:  Version 12 \n Storage:  4 GB available space \n Additional Notes:  60 FPS in 1920x1080 with \"High\" preset. GPU with DirectX12 & Shader Model 6.0 mandatory"
+    },
+    {
+        "id": "3689150",
+        "name": "Gooey",
+        "gpu_recommendation": "NVIDIA Geforce RTX 2070",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 \n Processor:  intel i7-5820K \n Memory:  4 GB RAM \n Graphics:  NVIDIA Geforce GTX 980 \n DirectX:  Version 11 \n Storage:  300 MB available space",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 \n Processor:  Intel Core i7-9700K \n Memory:  4 GB RAM \n Graphics:  NVIDIA Geforce RTX 2070 \n DirectX:  Version 11 \n Storage:  300 MB available space"
+    },
+    {
+        "id": "3838370",
+        "name": "TR-49",
+        "gpu_recommendation": "N/A",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Any \n Memory:  2 GB RAM \n Graphics:  Any \n DirectX:  Version 9.0c \n Storage:  200 MB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 11 \n Processor:  Any \n Memory:  4 GB RAM \n DirectX:  Version 9.0c \n Storage:  200 MB available space"
+    },
+    {
+        "id": "2783580",
+        "name": "Plant Therapy: Dog Art Pack",
+        "gpu_recommendation": "N/A",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system"
+    },
+    {
+        "id": "2408350",
+        "name": "Hermit and Pig",
+        "gpu_recommendation": "Intel UHD Graphics (128 MB VRAM or higher)",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  Intel Core i3-1115G4 or equivalent \n Memory:  8 GB RAM \n Graphics:  Intel UHD Graphics (128 MB VRAM or higher) \n DirectX:  Version 12 \n Storage:  1 GB available space",
+        "rec_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  Intel Core i3-1115G4 or equivalent \n Memory:  8 GB RAM \n Graphics:  Intel UHD Graphics (128 MB VRAM or higher) \n DirectX:  Version 12 \n Storage:  1 GB available space"
+    },
+    {
+        "id": "3172700",
+        "name": "Banquet for Fools",
+        "gpu_recommendation": "NVIDIA GeForce GTX 960, 8 GB VRAM",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 32-bit or newer \n Processor:  Intel Core i3-2100T @ 2.50 GHz / AMD Phenom II X3 B73 \n Memory:  8 GB RAM \n Graphics:  DirectX 11 Compatible, 8 GB VRAM \n Storage:  35 GB available space \n Sound Card:  DirectX Compatible Sound Card \n Additional Notes:  The demo will always be available to check out if you want to test it with your system!",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 64-bit or newer \n Processor:  Intel Core i5-2400 @ 3.10 GHz / AMD Phenom II X6 1100T \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 960, 8 GB VRAM \n Storage:  35 GB available space \n Sound Card:  DirectX Compatible Sound Card \n Additional Notes:  The demo will always be available to check out if you want to test it with your system!"
+    },
+    {
+        "id": "1812450",
+        "name": "Bellwright",
+        "gpu_recommendation": "NVIDIA GeForce RTX 3060 12GB / AMD Radeon RX 6600 8GB / Intel ARC A770 16GB",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 / Windows 11 \n Processor:  Intel Core i5-8600 / AMD Ryzen 5 3600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1070 8GB / AMD Radeon RX 580 8GB / Intel ARC A580 8GB \n DirectX:  Version 12 \n Storage:  24 GB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 / Windows 11 \n Processor:  Intel Core i5 13600 / AMD Ryzen 5 5600 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce RTX 3060 12GB / AMD Radeon RX 6600 8GB / Intel ARC A770 16GB \n DirectX:  Version 12 \n Storage:  24 GB available space"
+    },
+    {
+        "id": "4128260",
+        "name": "Highguard",
+        "gpu_recommendation": "Nvidia RTX 2080 8 GB / AMD RX 6650 XT 8 GB",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i5-6600K / AMD Ryzen R5 1600 \n Memory:  8 GB RAM \n Graphics:  Nvidia GTX 1060 6GB / AMD RX 580 8 GB \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  25 GB available space \n Additional Notes:  SSD",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 11 \n Processor:  Intel Core i5-9600K / AMD Ryzen 5 3600 \n Memory:  12 GB RAM \n Graphics:  Nvidia RTX 2080 8 GB / AMD RX 6650 XT 8 GB \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  25 GB available space \n Additional Notes:  NVMe SSD"
+    },
+    {
+        "id": "1928030",
+        "name": "Rightfully, Beary Arms",
+        "gpu_recommendation": "AMD Radeon RX Vega 3 or equivalent",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  AMD Ryzen™ 3 3250U Processor or equivalent \n Memory:  4 GB RAM \n Graphics:  AMD Radeon RX Vega 3 or equivalent \n Storage:  2 GB available space",
+        "rec_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  AMD Ryzen™ 3 3250U Processor or equivalent \n Memory:  4 GB RAM \n Graphics:  AMD Radeon RX Vega 3 or equivalent \n Storage:  2 GB available space"
+    },
+    {
+        "id": "3679080",
+        "name": "The Seven Deadly Sins: Origin",
+        "gpu_recommendation": "GeForce RTX 2070 8GB / AMD Radeon RX 5700 XT",
+        "min_specs_text": "Minimum: \n OS:  Windows 10 64 bit \n Processor:  i5-2500K / AMD FX-8350 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1060 6GB \n Storage:  30 GB available space",
+        "rec_specs_text": "Recommended: \n OS:  Windows 10 64 bit  \n Processor:  Intel Core i7-9700 / AMD Ryzen 5 5500 \n Memory:  32 GB RAM \n Graphics:  GeForce RTX 2070 8GB / AMD Radeon RX 5700 XT \n Storage:  30 GB available space"
+    },
+    {
+        "id": "1588550",
+        "name": "Cairn",
+        "gpu_recommendation": "Geforce RTX 2060 Super (6144 MB), Radeon RX 5700 (8192 MB)",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-6700 (4 * 3400), AMD Ryzen 5 1500X (4 * 3500) or equivalent \n Memory:  8 GB RAM \n Graphics:  GeForce GTX 1050 Ti (4096 MB), Radeon RX 570 (8192 MB) \n Storage:  10 GB available space \n Additional Notes:  SSD required. Controller recommended.",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-10700 (8 * 2900), AMD Ryzen 7 3700X (8 * 3600) or equivalent \n Memory:  8 GB RAM \n Graphics:  Geforce RTX 2060 Super (6144 MB), Radeon RX 5700 (8192 MB) \n Storage:  10 GB available space \n Additional Notes:  SSD required. Controller recommended."
+    }
+]

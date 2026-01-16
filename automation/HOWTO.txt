@@ -1,0 +1,7 @@
+you can use this as:
+
+python3 generator.py
+
+content is the original content from the outer folder. This is done here
+for checking and comparing only for new games. Please do this everytime
+you are running the generator.py.

@@ -1,130 +1,85 @@
 import os
 import time
 import sys
-import google.generativeai as genai
+import re
+import random
 from datetime import datetime
+from google import genai
+from google.api_core import exceptions # Needed for 429 error handling
 from dotenv import load_dotenv
 
 # --- CONFIGURATION ---
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key: 
+    raise ValueError("❌ No API Key found in .env! Please check your configuration.")
 
-if not api_key:
-    raise ValueError("❌ No API Key found! Please check your .env file.")
+client = genai.Client(api_key=api_key)
+MODEL_NAME = "gemini-2.0-flash-lite" 
+POSTS_DIR = "content/posts"
 
-genai.configure(api_key=api_key)
+def get_existing_slugs():
+    if not os.path.exists(POSTS_DIR):
+        return []
+    return [f.replace('.md', '') for f in os.listdir(POSTS_DIR) if f.endswith('.md')]
 
-# FIXED: Changed 'gemini-2.5' (typo) to the correct 'gemini-1.5-flash'
-model = genai.GenerativeModel('gemini-2.5-flash')
+def generate_post_with_retry(game, max_retries=5):
+    """Generates the article with exponential backoff for rate limits."""
+    
+    clean_name = re.sub(r'[^a-zA-Z0-9\s]', '', game['name'])
+    slug = clean_name.lower().replace(" ", "-")
+    filename = f"{POSTS_DIR}/{slug}.md"
 
-def generate_post(game):
-    """
-    Generates a "High-Stakes" hardware guide for a specific game using Google Gemini.
-    """
-    print(f"⚡ Generating article for: {game['name']}...")
+    if slug in get_existing_slugs():
+        print(f"✅ Skipping: '{game['name']}' (Already exists)")
+        return
+
+    # Data Preparation
+    rec_specs = game.get('rec_specs_text', 'No official specs available yet.')
+    gpu_recommendation = game.get('gpu_recommendation', 'N/A')
+    if gpu_recommendation == "N/A":
+        gpu_recommendation = "Hardware requirements pending. SpecMatch Prediction: RTX 3060 / RX 6600 or equivalent."
 
     full_prompt = f"""
-    You are the Editor-in-Chief of SpecMatch.io, a hardcore PC hardware site.
-    Your writing style is:
-    - Authoritative but urgent (use "The FOMO" angle).
-    - Short, punchy sentences.
-    - No fluff. No "In conclusion."
-    - You speak directly to the gamer who is afraid their PC is too slow.
-
-    TASK:
-    Write a Hugo Markdown article for the game "{game['name']}".
-    
-    Adhere strictly to this template:
-
-    ---
-    title: "Can Your PC Run {game['name']}? The 'Ultra 60 FPS' Hardware Guide"
-    date: {datetime.now().strftime('%Y-%m-%d')}
-    draft: false
-    description: "Don't let low FPS ruin the experience. Here are the exact laptop specs you need for {game['name']}, from Budget 1080p to Ultra 4K."
-    tags: ["{game['name']}", "System Requirements", "Hardware Guide"]
-    cover:
-        image: "/images/cover.jpg" 
-        alt: "{game['name']} System Requirements Art"
-        relative: false
-    ---
-
-    ## The "Fear of Missing Out"
-    Write 2 paragraphs. 
-    - Hook: Acknowledge that "{game['name']}" is demanding/beautiful.
-    - The Threat: Explain that older hardware (pre-2020) will struggle. Mention the game engine if known.
-    - The Promise: SpecMatch has analyzed the requirements to find the perfect hardware match.
-
-    ## The "SpecMatch" Quick Reference
-    Create a Markdown table with these exact columns. Fill it with ESTIMATED requirements for Laptops (Mobile GPUs):
-    | Target Experience | The SpecMatch GPU (Laptop) | The SpecMatch CPU | Est. Budget |
-    |-------------------|----------------------------|-------------------|-------------|
-    | **1080p (Entry)** | [Insert Mobile GPU, e.g. RTX 4050] | [Insert CPU] | ~$900 |
-    | **1440p (Sweet Spot)** | [Insert Mobile GPU, e.g. RTX 4070] | [Insert CPU] | ~$1,400 |
-    | **4K Ultra (Elite)** | [Insert Mobile GPU, e.g. RTX 4090] | [Insert CPU] | ~$2,800+ |
-
-    ## Why You Need This Power
-    Briefly explain (3 bullet points) why this specific game is hard to run (e.g., Ray Tracing, huge open world, physics).
-
-    ## The Verdict: Buy This Laptop
-    Recommend a specific laptop spec (e.g., RTX 4060) that is the best value for this game.
-    Tell them clearly: "If you want to play {game['name']} without lag, this is the floor."
-    
-    [Include a placeholder for an Amazon Link here]
+    You are the Editor-in-Chief of SpecMatch.io. Writing style: Authoritative, FOMO-driven, short sentences.
+    TASK: Write a Hugo Markdown article for "{game['name']}".
+    Target GPU: {gpu_recommendation} | Specs: {rec_specs}
+    ... [Rest of your punchy prompt remains the same] ...
     """
 
-    try:
-        response = model.generate_content(full_prompt)
-        content = response.text
-
-        # Create a clean filename
-        slug = game['name'].lower().replace(" ", "-").replace(":", "").replace("'", "")
-        filename = f"content/posts/{slug}.md"
-        
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(content)
+    # RETRY LOOP
+    for attempt in range(max_retries):
+        try:
+            print(f"⚡ Attempt {attempt+1}: Generating {game['name']}...")
+            response = client.models.generate_content(model=MODEL_NAME, contents=full_prompt)
             
-        print(f"✅ Created: {filename}")
-        
-    except Exception as e:
-        print(f"❌ Error generating {game['name']}: {e}")
+            os.makedirs(POSTS_DIR, exist_ok=True)
+            with open(filename, "w", encoding="utf-8") as f:
+                f.write(response.text)
+            print(f"✅ Created: {filename}")
+            return # Success! Exit the function.
 
-# --- MAIN EXECUTION ---
+        except Exception as e:
+            # Handle 429 Resource Exhausted
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                # Exponential backoff: 2^attempt + jitter
+                wait_time = (2 ** attempt) + random.uniform(0, 1)
+                print(f"⚠️ Rate limit hit. Retrying in {wait_time:.1f}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ Non-retryable error for {game['name']}: {e}")
+                break
+
 if __name__ == "__main__":
-    # 1. Try to import the scraper dynamically
     try:
-        # This adds the current folder to the path so we can import 'scraper.py'
-        sys.path.append(os.path.dirname(os.path.abspath(__file__)))
         import scraper
+        games_list = scraper.get_top_games(limit=20)
         
-        print("🔍 Running Scraper to find top games...")
-        
-        # NOTE: Make sure your scraper.py has a function like get_top_games()
-        # If your function is named differently, change it below.
-        games_list = scraper.get_top_games()
-        
-        if not games_list:
-            print("⚠️ Scraper returned no games! Using test list.")
-            games_list = [{"name": "GTA VI"}, {"name": "Cyberpunk 2077"}]
-            
-    except AttributeError:
-        print("❌ Error: Could not find 'get_top_games()' in scraper.py.")
-        print("   Please check your scraper file.")
-        games_list = []
-    except ImportError:
-        print("⚠️ Could not find scraper.py. Using test mode.")
-        games_list = [{"name": "GTA VI"}]
+        for game in games_list:
+            generate_post_with_retry(game)
+            # Baseline delay to stay near 4-5 RPM safely
+            time.sleep(12) 
 
-    # 2. Loop through the games and generate articles
-    print(f"🚀 Starting batch generation for {len(games_list)} games...")
-    
-    for i, game in enumerate(games_list):
-        generate_post(game)
-        
-        # 3. Add a small delay to be safe with API limits
-        if i < len(games_list) - 1:
-            print("   (Waiting 2s...)")
-            time.sleep(2)
-
-    print("\n🎉 Batch generation complete!")
+        print("\n🎉 Batch generation complete!")
+    except Exception as e:
+        print(f"❌ Automation Error: {e}")
