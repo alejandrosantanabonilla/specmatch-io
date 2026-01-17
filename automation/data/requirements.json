@@ -21,6 +21,13 @@
         "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10/11 (64 bit) \n Processor:  2.66GHz Intel Core i7 \n Memory:  8 GB RAM \n Graphics:  Intel HD Graphics 5200, NVIDIA GeForce GTX 750, Radeon HD 7800 \n DirectX:  Version 11 \n Storage:  4 GB available space"
     },
     {
+        "id": "3199650",
+        "name": "Pathologic 3",
+        "gpu_recommendation": "NVIDIA GeForce GTX 2070",
+        "min_specs_text": "Minimum: \n OS *:  Windows 7/8/10/11 (64-bit) \n Processor:  i3 / Ryzen 5 \n Memory:  8 GB RAM \n Graphics:  NVIDIA GeForce GTX 960 \n DirectX:  Version 11 \n Storage:  25 GB available space \n Sound Card:  Integrated \n Additional Notes:  64-bit OS is required",
+        "rec_specs_text": "Recommended: \n OS *:  Windows 7/8/10 (64-bit) \n Processor:  i7 / Ryzen 7 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 2070 \n DirectX:  Version 11 \n Storage:  25 GB available space \n Sound Card:  Integrated \n Additional Notes:  Plays best when loaded from an SSD. 64-bit OS is required"
+    },
+    {
         "id": "3453000",
         "name": "Spear",
         "gpu_recommendation": "NVIDIA GeForce GTX 950 (2GB VRAM) or AMD Radeon RX 5500 XT (4GB VRAM)",
@@ -42,6 +49,13 @@
         "rec_specs_text": "Minimum: \n OS:  Windows 10 64-bit \n Processor:  Intel Core i5-7500 \n Memory:  8 GB RAM \n Graphics:  NVIDIA Geforce GTX 970 / AMD RX 970 \n DirectX:  Version 11 \n Storage:  10 GB available space \n Sound Card:  Windows Compatible Audio Device"
     },
     {
+        "id": "2334330",
+        "name": "CASSETTE BOY",
+        "gpu_recommendation": "AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070",
+        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  AMD Ryzen 3 1200 ／ Intel Core i5-7500 \n Memory:  8 MB RAM \n Graphics:  AMD Radeon RX 560 with 4GB VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM \n DirectX:  Version 12 \n Storage:  500 MB available space",
+        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  MD Ryzen 5 3600 ／ Intel Core i7 8700 \n Memory:  16 MB RAM \n Graphics:  AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070 \n DirectX:  Version 12 \n Storage:  500 MB available space"
+    },
+    {
         "id": "3316940",
         "name": "The Legend of Heroes: Trails beyond the Horizon",
         "gpu_recommendation": "NVIDIA GeForce GTX 1650",
@@ -54,6 +68,13 @@
         "gpu_recommendation": "Radeon RX 6700 XT, Geforce RTX 4060",
         "min_specs_text": "Minimum: \n OS:  Windows 10 64-bit + \n Processor:  Ryzen 5 2600X, Core i5-8600 \n Memory:  8 GB RAM \n Graphics:  AMD RX 5700, GTX 1070 \n DirectX:  Version 12 \n Storage:  15 GB available space",
         "rec_specs_text": "Recommended: \n OS:  Windows 10 64-bit + \n Processor:  Ryzen 5 5600X, Core i5-11600K \n Memory:  16 GB RAM \n Graphics:  Radeon RX 6700 XT, Geforce RTX 4060 \n DirectX:  Version 12 \n Storage:  15 GB available space"
+    },
+    {
+        "id": "3047820",
+        "name": "Ghetto Zombies: Graffiti Squad",
+        "gpu_recommendation": "Intel HD Graphics 650",
+        "min_specs_text": "Minimum: \n OS:  Windows 10/11 \n Processor:  Intel Core i3-1115G4 \n Memory:  6 GB RAM \n Graphics:  Intel HD Graphics 650 \n Storage:  100 MB MB available space \n Sound Card:  Compatibilidade com DirectX 9.0c",
+        "rec_specs_text": "Minimum: \n OS:  Windows 10/11 \n Processor:  Intel Core i3-1115G4 \n Memory:  6 GB RAM \n Graphics:  Intel HD Graphics 650 \n Storage:  100 MB MB available space \n Sound Card:  Compatibilidade com DirectX 9.0c"
     },
     {
         "id": "3907920",
@@ -117,26 +138,5 @@
         "gpu_recommendation": "Nvidia RTX 2080 8 GB / AMD RX 6650 XT 8 GB",
         "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i5-6600K / AMD Ryzen R5 1600 \n Memory:  8 GB RAM \n Graphics:  Nvidia GTX 1060 6GB / AMD RX 580 8 GB \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  25 GB available space \n Additional Notes:  SSD",
         "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 11 \n Processor:  Intel Core i5-9600K / AMD Ryzen 5 3600 \n Memory:  12 GB RAM \n Graphics:  Nvidia RTX 2080 8 GB / AMD RX 6650 XT 8 GB \n DirectX:  Version 12 \n Network:  Broadband Internet connection \n Storage:  25 GB available space \n Additional Notes:  NVMe SSD"
-    },
-    {
-        "id": "1928030",
-        "name": "Rightfully, Beary Arms",
-        "gpu_recommendation": "AMD Radeon RX Vega 3 or equivalent",
-        "min_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  AMD Ryzen™ 3 3250U Processor or equivalent \n Memory:  4 GB RAM \n Graphics:  AMD Radeon RX Vega 3 or equivalent \n Storage:  2 GB available space",
-        "rec_specs_text": "Minimum: \n OS:  Windows 10 or later \n Processor:  AMD Ryzen™ 3 3250U Processor or equivalent \n Memory:  4 GB RAM \n Graphics:  AMD Radeon RX Vega 3 or equivalent \n Storage:  2 GB available space"
-    },
-    {
-        "id": "3679080",
-        "name": "The Seven Deadly Sins: Origin",
-        "gpu_recommendation": "GeForce RTX 2070 8GB / AMD Radeon RX 5700 XT",
-        "min_specs_text": "Minimum: \n OS:  Windows 10 64 bit \n Processor:  i5-2500K / AMD FX-8350 \n Memory:  16 GB RAM \n Graphics:  NVIDIA GeForce GTX 1060 6GB \n Storage:  30 GB available space",
-        "rec_specs_text": "Recommended: \n OS:  Windows 10 64 bit  \n Processor:  Intel Core i7-9700 / AMD Ryzen 5 5500 \n Memory:  32 GB RAM \n Graphics:  GeForce RTX 2070 8GB / AMD Radeon RX 5700 XT \n Storage:  30 GB available space"
-    },
-    {
-        "id": "1588550",
-        "name": "Cairn",
-        "gpu_recommendation": "Geforce RTX 2060 Super (6144 MB), Radeon RX 5700 (8192 MB)",
-        "min_specs_text": "Minimum: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-6700 (4 * 3400), AMD Ryzen 5 1500X (4 * 3500) or equivalent \n Memory:  8 GB RAM \n Graphics:  GeForce GTX 1050 Ti (4096 MB), Radeon RX 570 (8192 MB) \n Storage:  10 GB available space \n Additional Notes:  SSD required. Controller recommended.",
-        "rec_specs_text": "Recommended: \n Requires a 64-bit processor and operating system \n OS:  Windows 10 \n Processor:  Intel Core i7-10700 (8 * 2900), AMD Ryzen 7 3700X (8 * 3600) or equivalent \n Memory:  8 GB RAM \n Graphics:  Geforce RTX 2060 Super (6144 MB), Radeon RX 5700 (8192 MB) \n Storage:  10 GB available space \n Additional Notes:  SSD required. Controller recommended."
     }
 ]
