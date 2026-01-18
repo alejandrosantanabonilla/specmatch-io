@@ -29,32 +29,32 @@ If you're still on a rig from 2019 or earlier, you aren't just missing out on fr
 Survival horror requires two things: **Deep Blacks (OLED)** and **Consistent Frame Times**. Here are our top three picks for *Requiem*.
 
 ### 1. The Value Survivor (1080p Ultra)
-**Lenovo LOQ 15 (Gen 10)**
-* **Specs:** NVIDIA RTX 5050 (Next-Gen Architecture), Intel Core i7-14650HX, 144Hz IPS
+**Lenovo Legion 5 **
+* **Specs:** NVIDIA RTX 5050 (8GB), Intel Core i7-13650HX, 165Hz IPS
 * **Why:** The new **RTX 5050** supports **DLSS 4**, which is critical for maintaining 60 FPS in *Requiem* without breaking the bank. It is the most affordable gateway to 2026's survival horror titles.
-* [**Check Price on Amazon**](https://amzn.to/49DIf2t)
+* [**Check Price on Amazon**](https://amzn.to/4qXC14n)
 
-**Desktop Match:** [**Skytech Nebula**](https://amzn.to/49CDN3U) (RTX 4060, Ryzen 5 5500)
+**Desktop Match:** [**Skytech Nebula**](https://amzn.to/3LxqkT5) (RTX 4060, Ryzen 5 5500)
 
 ---
 
 ### 2. The Atmospheric King (1440p Path Tracing)
-**Lenovo Legion Pro 7i (Gen 10)**
-* **Specs:** RTX 5070 Ti, Core Ultra 9 275HX, **16-inch OLED HDR 1000 True Black**
-* **Why:** Horror is defined by its shadows. The **True Black 1000 OLED** screen on this Legion makes the dark corridors of *Requiem* genuinely pitch black, not "digital gray". It’s the sweet spot for path-traced visuals at 1440p.
-* [**Check Price on Amazon**](https://amzn.to/3Nm71fO)
+**Lenovo Legion Pro 5i (Gen 10)**
+* **Specs:** RTX 5070 Ti (12GB), Core Ultra 9 275HX, **16-inch OLED**
+* **Why:** Horror is defined by its shadows. The **500 nits OLED** screen on this Legion makes the dark corridors of *Requiem* genuinely pitch black, not "digital gray". It’s the sweet spot for path-traced visuals at 1440p.
+* [**Check Price on Amazon**](https://amzn.to/49qZODY)
 
-**Desktop Match:** [**HP Omen Max 16**](https://amzn.to/49CDN3U) (RTX 5070 Ti, 32GB RAM)
+**Desktop Match:** [**HP Omen Max 16**](https://amzn.to/4jRxDSm) (RTX 5070 Ti, 32GB RAM)
 
 ---
 
-### 3. The Nightmare Killer (4K Max / 240Hz)
-**Razer Blade 18 (2026 Edition)**
-* **Specs:** **RTX 5090**, Core Ultra 9 275HX, 18-inch **4K Mini-LED @ 200Hz**
-* **Why:** If you want to run Resident Evil Requiem with **Full Path Tracing at 4K**, there is no substitute for the RTX 5090. This is the ultimate desktop replacement that won't flinch at 2026's most demanding engine features.
-* [**Check Price on Amazon**](https://amzn.to/4q0wcDm)
+### 3. The Nightmare Killer (UHD Max / 120Hz)
+**MSI Stealth 18 (2026 Edition)**
+* **Specs:** **RTX 5080**, Core Ultra 9 275HX, 18-inch **UHD Mini-LED @ 120Hz**
+* **Why:** If you want to run Resident Evil Requiem with **Full Path Tracing**, there is no substitute for the RTX 5080. This is the ultimate desktop replacement that won't flinch at 2026's most demanding engine features.
+* [**Check Price on Amazon**](https://amzn.to/3NsdVQT)
 
-**Desktop Match:** [**Alienware Area-51 Desktop**](https://amzn.to/49CDN3U) (RTX 5090, 64GB DDR5)
+**Desktop Match:** [**Alienware Area-51 Desktop**](https://amzn.to/3LAt0PO) (RTX 5090, 64GB 4TB SSD)
 
 ---
 
