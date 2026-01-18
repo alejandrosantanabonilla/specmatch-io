@@ -5,7 +5,7 @@ draft: false
 description: "Pywel is vast, brutal, and hardware-hungry. Here are the customized laptop tiers you need to survive Crimson Desert's next-gen open world."
 tags: ["Crimson Desert", "System Requirements", "Hardware Guide", "BlackSpace Engine", "RTX 50-Series"]
 cover:
-    image: "/images/cd.jpg" 
+    image: "/images/cd.png" 
     alt: "Crimson Desert System Requirements Art"
     relative: false
 ---
