@@ -5,7 +5,7 @@ draft: false
 description: "Don't let low FPS ruin the experience. Here are the exact laptop specs and gear you need for Apex Legends™, from Budget 1080p to Ultra 4K."
 tags: ["Apex Legends™", "System Requirements", "Hardware Guide", "Gaming Gear"]
 cover:
-    image: "/images/apex.jpg"
+    image: "/images/apex.png"
     alt: "Apex Legends™ System Requirements Art"
     relative: false
 ---

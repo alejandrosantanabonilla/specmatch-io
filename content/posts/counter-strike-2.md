@@ -5,7 +5,7 @@ draft: false
 description: "Don't let low FPS ruin your rank. Here are the exact laptop specs, mice, and gear you need for Counter-Strike 2, from Budget 1080p to Ultra 4K."
 tags: ["Counter-Strike 2", "System Requirements", "Hardware Guide", "Esports Gear"]
 cover:
-    image: "/images/cs_2.jpg" 
+    image: "/images/cs_2.png" 
     alt: "Tactical FPS System Requirements Art"
     relative: false
 ---
