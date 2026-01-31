@@ -1,5 +1,5 @@
 ---
-title: "The Ultimate 2026 Gaming Setup: From 4K Graphics to Elite Ergonomics"
+title: "Can Your PC Run Grand Theft Auto V legacy? The 'Ultra 60 FPS' Hardware Guide"
 date: 2026-01-31
 draft: false
 description: "Build the perfect gaming station with our guide to the best GPUs, ergonomic chairs, and immersive peripherals for 2026."
