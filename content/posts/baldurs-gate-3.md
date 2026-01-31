@@ -1,8 +1,3 @@
-Here's a Hugo Markdown guide for Baldur's Gate 3 hardware. I've structured it with front matter, headings, and inline formatting to make it easily digestible and integrate well into a Hugo site.
-
----
-
-```markdown
 ---
 title: "Baldur's Gate 3 Hardware Guide: Getting the Best Performance"
 date: 2023-10-27T10:00:00+00:00

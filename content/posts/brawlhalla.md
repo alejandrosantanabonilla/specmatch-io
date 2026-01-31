@@ -1,6 +1,3 @@
-Sure, here's a Hugo Markdown hardware guide for 'Brawlhalla':
-
-```markdown
 ---
 title: "Brawlhalla Hardware Guide"
 date: 2023-10-27T10:00:00-05:00
