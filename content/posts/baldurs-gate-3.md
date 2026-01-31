@@ -93,20 +93,4 @@ Hardware performance can vary based on specific component models, system configu
 **Happy Adventuring in Faerûn!**
 ```
 
----
-
-**How to use this in your Hugo project:**
-
-1.  **Save the code:** Copy the entire Markdown block above and save it as a file (e.g., `baldurs-gate-3-hardware-guide.md`) inside your Hugo project's `content/posts/` (or a subfolder within `content/` if you prefer) directory.
-2.  **Adjust Front Matter:**
-    *   `title`: Change "Baldur's Gate 3 Hardware Guide: Getting the Best Performance" to whatever title you want for your page.
-    *   `date`: Set the appropriate publication date.
-    *   `draft`: Set to `false` once you're ready for it to be published.
-    *   `tags`: Customize these tags to fit your site's categorization.
-    *   `description`: Write a concise meta description for SEO.
-    *   `author`: Add your name or your website's name.
-3.  **Customize Content:** Feel free to add or remove sections, update component recommendations with the latest hardware, or add your personal experiences.
-4.  **Hugo Build/Server:** Run `hugo server` to preview your changes, or `hugo` to build your static site.
-5.  **Theme Compatibility:** Ensure your Hugo theme has good support for Markdown formatting (headings, lists, bold, italics, etc.). Most modern themes do.
-
-This guide provides a solid foundation for informing your readers about the hardware they need to enjoy Baldur's Gate 3.
+*Disclaimer: SpecMatch is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.*

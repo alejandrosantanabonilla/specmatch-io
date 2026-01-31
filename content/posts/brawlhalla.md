@@ -120,4 +120,5 @@ Regardless of your hardware, several in-game settings can be adjusted to maximiz
 By understanding these hardware considerations and optimizing your settings, you'll be well on your way to climbing the ranks and becoming a Brawlhalla legend!
 
 ---
+*Disclaimer: SpecMatch is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.*
 ```
